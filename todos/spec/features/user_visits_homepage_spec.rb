@@ -6,3 +6,4 @@ feature "user visits homepage"  do
     expect(page).to have_css 'h1', text: 'TODOS' 
   end
 end
+
